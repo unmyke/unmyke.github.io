@@ -1,0 +1,24 @@
+@mixin shadow {
+  box-shadow: inset 0 -9px 0 #eefbff;
+  transition: box-shadow ease 160ms;
+  &:hover {
+    box-shadow: inset 0 -1.2em 0 #cff3ff;
+  }
+}
+
+.base {
+  color: #222;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.inner {
+  border-bottom: 2px solid #cff3ff;
+  @extend .base;
+  @include shadow;
+}
+
+.outer {
+  @extend .base;
+  @include shadow;
+}
