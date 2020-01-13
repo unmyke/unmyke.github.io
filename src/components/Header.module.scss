@@ -1,0 +1,19 @@
+.container {
+  margin-bottom: calc(1.5rem / 2);
+}
+
+.nav {
+  display: inline;
+}
+
+.nav::before {
+  content: " / ";
+}
+
+.home {
+  display: inline;
+}
+
+.title {
+  display: inline;
+}
