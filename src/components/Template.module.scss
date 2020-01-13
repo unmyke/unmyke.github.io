@@ -1,0 +1,17 @@
+.container {
+  max-width: 62ch;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-top: 4vmin;
+  margin-bottom: 8vmin;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 10vmin;
+    padding-left: 52px;
+    padding-right: 52px;
+  }
+}
