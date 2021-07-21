@@ -4,7 +4,9 @@ import Link from "../components/Link"
 
 const Page404 = () => (
   <Template>
-    <Link to="/"><p>Ex nihilo nihil fit...</p></Link>
+    <Link to="/">
+      <p>Ex nihilo nihil fit...</p>
+    </Link>
   </Template>
 )
 export default Page404

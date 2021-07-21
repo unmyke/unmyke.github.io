@@ -2,9 +2,10 @@ const pathRegexp = /^(.*)\/$/
 
 const getCurrentPageIndex = (pages, currentPathname) => {
   const currentPageIndex = pages.findIndex(({ link: { pathname } }) => {
-    const normilizedCurrentPathname = currentPathname.replace(pathRegexp, "$1")
-    const normilizedPathname = pathname.replace(pathRegexp, "$1")
-    const isCurrentPath = normilizedCurrentPathname === normilizedPathname
+    const normalizedCurrentPathname = currentPathname.replace(pathRegexp, "$1")
+    const normalizedPathname = pathname.replace(pathRegexp, "$1")
+    const isCurrentPath = normalizedCurrentPathname === normalizedPathname
+
     return isCurrentPath
   })
 

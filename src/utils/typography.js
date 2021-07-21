@@ -5,7 +5,7 @@ const typography = new Typography({
   scaleRatio: 1,
   baseLineHeight: 1,
   headerFontFamily: ["Josefin Sans", "Georgia", "sans-serif"],
-  bodyFontFamily: ["Gentium Basic", "", "Helvetica", "serif"],
+  bodyFontFamily: ["Gentium Basic", "Helvetica", "serif"],
   googleFonts: [
     {
       name: "Josefin Sans",
@@ -20,5 +20,5 @@ const typography = new Typography({
     nav: { fontFamily: headerFontFamily.join(",") },
   }),
 })
-})
+
 export default typography

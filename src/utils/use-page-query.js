@@ -1,5 +1,6 @@
 import { useStaticQuery, graphql } from "gatsby"
-export const usePageQuery = () => {
+
+const usePageQuery = () => {
   const {
     site: {
       siteMetadata: { pages, global },
@@ -27,4 +28,5 @@ export const usePageQuery = () => {
 
   return { pages, links, global }
 }
+
 export default usePageQuery
