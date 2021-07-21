@@ -1,6 +1,6 @@
 import React from "react"
 import Link from "../components/Link"
-import styles from "./References.module.scss"
+import * as styles from "./References.module.scss"
 
 const References = () => (
   <ul className={styles["list"]}>

@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Link from "./Link"
-import styles from "./Header.module.scss"
+import * as styles from "./Header.module.scss"
 
 const Header = ({ links, currentLinkIndex }) => {
   const [{ pathname: indexPathname, name: indexHeader }, ...restLinks] = links
