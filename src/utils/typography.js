@@ -16,5 +16,9 @@ const typography = new Typography({
       styles: ["400", "700"],
     },
   ],
+  overrideStyles: (_, { headerFontFamily }) => ({
+    nav: { fontFamily: headerFontFamily.join(",") },
+  }),
+})
 })
 export default typography
