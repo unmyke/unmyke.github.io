@@ -27,4 +27,5 @@ export const usePageQuery = () => {
 
   return { pages, links, global }
 }
+
 export default usePageQuery

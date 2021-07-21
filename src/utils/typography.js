@@ -20,5 +20,5 @@ const typography = new Typography({
     nav: { fontFamily: headerFontFamily.join(",") },
   }),
 })
-})
+
 export default typography

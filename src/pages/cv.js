@@ -2,8 +2,7 @@ import React from "react"
 import Template from "../components/Template"
 import Header from "../components/Header"
 import CV from "../components/cv"
-import { getCurrentPageIndex } from "../utils"
-import { usePageQuery } from "../utils"
+import { getCurrentPageIndex, usePageQuery } from "../utils"
 
 const PageCV = ({ location: { pathname } }) => {
   const { pages = [], global, links } = usePageQuery()
