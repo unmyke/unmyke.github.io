@@ -30,7 +30,7 @@
     "prettier": "^2.3.2"
   },
   "resolutions": {
-    "react-helmet/react-side-effect": "2.1.0"
+    "react-helmet/react-side-effect": "2.1.1"
   },
   "repository": {
     "type": "git",
