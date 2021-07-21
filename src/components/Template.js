@@ -1,7 +1,7 @@
 import React, { Fragment } from "react"
 import Helmet from "react-helmet"
 import { graphql } from "gatsby"
-import styles from "./Template.module.scss"
+import * as styles from "./Template.module.scss"
 
 const Template = ({ children, global = {}, currentPage = {} }) => {
   const { author, siteUrl } = global

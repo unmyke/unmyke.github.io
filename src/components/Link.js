@@ -1,6 +1,6 @@
 import React from "react"
 import { Link as GatsbyLink } from "gatsby"
-import styles from "./Link.module.scss"
+import * as styles from "./Link.module.scss"
 
 const Link = ({ children, to, ...other }) => {
   const isInternal = /^\/(?!\/)/.test(to)
