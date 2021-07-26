@@ -39,5 +39,18 @@ module.exports = {
         pathToConfigModule: "src/utils/typography",
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `content`,
+        path: `src/content`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        extensions: [`.md`, `.mdx`],
+      },
+    },
   ],
 }
