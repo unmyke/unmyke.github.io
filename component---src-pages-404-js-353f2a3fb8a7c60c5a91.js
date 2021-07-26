@@ -1,0 +1,2 @@
+(self.webpackChunkunmyke_github_io=self.webpackChunkunmyke_github_io||[]).push([[883],{9616:function(e,n,t){"use strict";t.r(n);var u=t(7294),i=t(4564),l=t(6676);n.default=function(){return u.createElement(i.Z,null,u.createElement(l.Z,{to:"/"},u.createElement("p",null,"Ex nihilo nihil fit...")))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-353f2a3fb8a7c60c5a91.js.map
