@@ -1,5 +1,5 @@
 import React from "react"
-import Link from "../components/Link"
+import Link from "./Link"
 import * as styles from "./References.module.scss"
 
 const References = () => (
