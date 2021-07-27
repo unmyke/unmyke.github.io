@@ -17,7 +17,9 @@ const typography = new Typography({
     },
   ],
   overrideStyles: (_, { headerFontFamily }) => ({
-    nav: { fontFamily: headerFontFamily.join(",") },
+    nav: {
+      fontFamily: headerFontFamily.join(","),
+    },
   }),
 })
 
