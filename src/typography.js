@@ -3,7 +3,7 @@ import Typography from "typography"
 const typography = new Typography({
   baseFontSize: "24px",
   scaleRatio: 1,
-  baseLineHeight: 1,
+  baseLineHeight: 1.5,
   headerFontFamily: ["Josefin Sans", "Georgia", "sans-serif"],
   bodyFontFamily: ["Gentium Basic", "Helvetica", "serif"],
   googleFonts: [
