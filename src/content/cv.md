@@ -5,27 +5,8 @@ title: "CV"
 description: "cv"
 ---
 
-Interested in **fullstack backend** Node.js development via **JavaScript** and **TypeScript**
+Focusing on **software engineering** using a domain-driven approach. Most comfortable with **Javascript/Typescript**. Building GraphQL/RESTfulAPI/WebSocket and microservices. Making user interfaces.
 
-Have experience in:
+Growing skills in continuous integration and continuous delivery. I'm passionate about **functional programming** and learning **Clojure**.
 
-- building REST, GraphQL API
-- MySQL, PostgreSQL, MongoDB integration
-- Express, NestJS
-- React, Redux
-- Gulp, Webpack
-- Git / Git Flow / Rebase Flow
-- scripting and shell
-- managing and optimizing workflows
-- design tools
-
-Familiar with:
-
-- unit test automation (Jest)
-- concepts of continuous integration
-
-Care about:
-
-- end design, usability
-- collaboration and team synergy
-- further technological growth
+**Tools:** Typescript / JavaScript / NestJS / Express / RESTful / GraphQL / WebSocket / PostgreSQL / MySQL / MongoDB / RabbitMQ / gRPC / React / Redux / DDD / TDD / Agile / Docker / Ansible / Git
