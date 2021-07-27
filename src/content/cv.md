@@ -5,7 +5,7 @@ title: "CV"
 description: "cv"
 ---
 
-Focusing on **software engineering** using a domain-driven approach. Most comfortable with **Javascript/Typescript**. Building GraphQL/RESTfulAPI/WebSocket and microservices. Making user interfaces.
+Focusing on **software engineering** using a domain-driven approach. Most comfortable with **Javascript/Typescript**. Building GraphQL/RESTful/WebSocket APIs and microservices. Making user interfaces.
 
 Growing skills in continuous integration and continuous delivery. I'm passionate about **functional programming** and learning **Clojure**.
 
