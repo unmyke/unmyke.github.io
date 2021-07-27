@@ -2,7 +2,7 @@
   "name": "unmyke.github.io",
   "private": true,
   "description": "Personal website",
-  "version": "0.1.1",
+  "version": "1.0.0",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
