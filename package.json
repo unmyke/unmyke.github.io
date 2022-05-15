@@ -30,7 +30,7 @@
     "typography": "0.16.21"
   },
   "devDependencies": {
-    "gh-pages": "3.2.3",
+    "gh-pages": "4.0.0",
     "prettier": "2.4.1"
   },
   "resolutions": {
